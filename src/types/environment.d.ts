@@ -3,7 +3,7 @@ declare global {
     interface ProcessEnv {
       NODE_ENV: 'development' | 'production';
       SECRET_KEY: string;
-      PORT: number;
+      // PORT: number;
     }
   }
 }
